@@ -7,7 +7,7 @@ Quickly scaffold a new Django project with Olyv's opinionated setup and best pra
 Create a new Django project:
 
 ```bash
-uvx create-olyv-app my-project
+uvx --from https://github.com/christianwhocodes/create-olyv-app.git create-olyv-app my-project
 ```
 
 This will generate a new Django project with a Pre-configured settings structure.

@@ -1,0 +1,72 @@
+[
+  {
+    "model": "addresses.socialmediaaddress",
+    "pk": 1,
+    "fields": {
+      "display_order": 1,
+      "is_active": true,
+      "created_at": "2025-06-02T06:44:37.799Z",
+      "updated_at": "2025-06-16T09:29:06.881Z",
+      "name": "facebook",
+      "icon": "bi bi-facebook",
+      "url": "https://www.facebook.com/onlinebigpen/"
+    }
+  },
+  {
+    "model": "addresses.phoneaddress",
+    "pk": 1,
+    "fields": {
+      "display_order": 0,
+      "is_active": true,
+      "created_at": "2025-06-02T07:08:03.649Z",
+      "updated_at": "2025-06-02T07:08:48.576Z",
+      "number": "+254725842443",
+      "is_primary": true,
+      "use_for_whatsapp": true
+    }
+  },
+  {
+    "model": "addresses.phoneaddress",
+    "pk": 2,
+    "fields": {
+      "display_order": 1,
+      "is_active": true,
+      "created_at": "2025-06-02T07:08:18.232Z",
+      "updated_at": "2025-06-02T07:08:18.232Z",
+      "number": "+254742840115",
+      "is_primary": false,
+      "use_for_whatsapp": false
+    }
+  },
+  {
+    "model": "addresses.emailaddress",
+    "pk": 1,
+    "fields": {
+      "display_order": 1,
+      "is_active": true,
+      "created_at": "2025-06-02T07:16:19.032Z",
+      "updated_at": "2025-06-16T09:28:56.555Z",
+      "email": "online.bigpen@gmail.com",
+      "is_primary": true
+    }
+  },
+  {
+    "model": "addresses.physicaladdress",
+    "pk": 1,
+    "fields": {
+      "display_order": 1,
+      "is_active": true,
+      "created_at": "2025-06-02T07:32:59.225Z",
+      "updated_at": "2025-06-16T09:28:51.014Z",
+      "label": "Main Building Address",
+      "building": "Mfangano Trade Centre Building",
+      "street_address": "Shop Number M29",
+      "city": "",
+      "state_province": "Nairobi",
+      "postal_code": "",
+      "country": "Kenya",
+      "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8076663249976!2d36.82049657404908!3d-1.2896488986980943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11844258ce89%3A0x23bb9eb677a04c50!2sMfangano%20Trade%20centre%2C%20Nairobi%20CBD!5e0!3m2!1sen!2ske!4v1746029889664!5m2!1sen!2ske",
+      "use_in_contact_form": true
+    }
+  }
+]

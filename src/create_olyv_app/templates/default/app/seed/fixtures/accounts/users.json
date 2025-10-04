@@ -1,0 +1,78 @@
+[
+  {
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$SGwmib3Xk0QF96b1FpZIua$/Mmm2sDv9FXJjN1/ULsglbAsdRlXGydxh7su4pbIEHQ=",
+      "last_login": "2025-07-30T16:19:56.262Z",
+      "is_superuser": true,
+      "username": "christianwhocodes",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-07-30T11:10:27.125Z",
+      "display_order": 1,
+      "email": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$ycqDfJK9l6AkZRXeUgQYnc$/peh/CiYpIaH6wNxAuCLQ6l9InN8Xl5sHy+C4ksZkc8=",
+      "last_login": "2025-07-30T16:19:36.490Z",
+      "is_superuser": false,
+      "username": "staff_1",
+      "first_name": "John",
+      "last_name": "Doe",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-07-30T11:12:25.302Z",
+      "display_order": 1,
+      "email": "john@doe.space",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$RthLhSmGkhFSsvohdrlWcS$m5sEdCV6Uu2DMx46X0cA46DzGeMBfLXxO+V4fDk2dZ0=",
+      "last_login": "2025-07-30T13:45:43.850Z",
+      "is_superuser": false,
+      "username": "staff_2",
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-07-30T11:37:12.222Z",
+      "display_order": 1,
+      "email": "jane@doe.space",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$hwFwSmwJNp4iuwfPlmWxOv$sI1Cqwqi4jNI5rtmBi2yKBkb0U6mVlRqAbGW5lLzcRs=",
+      "last_login": "2025-07-30T13:27:50.379Z",
+      "is_superuser": false,
+      "username": "staff_3",
+      "first_name": "Timothy",
+      "last_name": "Doe",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-07-30T11:38:48.536Z",
+      "display_order": 1,
+      "email": "tim@doe.space",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

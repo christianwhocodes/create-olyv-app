@@ -1,0 +1,33 @@
+[project]
+name = "default"
+version = "0.1.0"
+description = "Add description here"
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+  "gunicorn>=23.0.0",
+  "olyv",
+  "psycopg[binary,pool]>=3.2.10",
+  "python-decouple>=3.8",
+]
+
+[dependency-groups]
+dev = [
+    "djlint>=1.36.4",
+    "ruff>=0.13.3",
+]
+
+[tool.uv.sources]
+olyv = { git = "https://github.com/christianwhocodes/olyv.git" }
+
+[tool.djlint]
+format_css = true
+ignore = "H006,H016,H021,H023,H030,H031,T002"
+blank_line_before_tag = "if,block,for"
+blank_line_after_tag = "load,endif,endblock,endfor"
+
+[tool.djlint.css]
+indent_size = 2
+
+[tool.ruff]
+line-length = 101

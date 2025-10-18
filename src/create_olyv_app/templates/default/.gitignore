@@ -1,5 +1,4 @@
-/.env
-/.backup/
-/lib/
-/.venv/
 __pycache__/
+.env
+.venv/
+/lib/
